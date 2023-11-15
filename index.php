@@ -56,6 +56,7 @@
             <li><a href="#">User</a></li>
             <li><a href="#">Help center</a></li>
         </ul>
+        <h1>
         <div class="languages"></div>
         <div class="lst">
             <p>Copyright &copy;<?php $currentYear = date('Y'); echo "$currentYear"; ?>;Designed by <span class="designer">DM group</span></p>
