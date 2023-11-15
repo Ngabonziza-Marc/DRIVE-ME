@@ -11,11 +11,11 @@
 <body>
 <div class="dashboard">
     <div class="container-dash">
-        <div class="navigation-dash">
+        <div class="navigation-dash" id="board">
             <ul>
                 <li>
                     <a href="index.php">
-                        <span class="icon"><i class="fa-solid fa-bars"></i></span>
+                        <span class="icon"></span>
                         <span class="tittle">DASHBOARD</span>
                     </a>
                 </li>
@@ -52,6 +52,121 @@
             </ul>
         </div>
     </div>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <div class="toggle">
+        <i class="fa-solid fa-bars" onclick="board()"></i>
+        </div>
+        <!-- ----------------------SEARCH BOX ------------------------>
+        <div class="search">
+            <label>
+                <input type="text" placeholder="Search here">
+             </label>
+        </div>
+        <!--------------- USER IMAGE -------------------------------->
+        <div class="user">
+            <img src="assets/images/bck.jpg">
+        </div>
+    </div>
+
+       <!-- -------------------CARDS ---------------------------->
+
+       <div class="cardbox">
+        <div class="cards">
+            <div>
+                <div class="numbers">1,504</div>
+                <div class="cardname">daily Movements</div>
+            </div>
+            <div class="iconbox">
+            <i class="fa-solid fa-route"></i>
+            </div>
+        </div>
+        <div class="cards">
+            <div>
+                <div class="numbers">80</div>
+                <div class="cardname">Motos</div>
+            </div>
+            <div class="iconbox">
+                <i class="fa-solid fa-motorcycle"></i>
+            </div>
+        </div>
+        <div class="cards">
+            <div>
+                <div class="numbers">208</div>
+                <div class="cardname">Taxis</div>
+            </div>
+            <div class="iconbox">
+                <i class="fa-solid fa-taxi"></i>
+            </div>
+        </div>
+        <div class="cards">
+            <div>
+                <div class="numbers">$44545</div>
+                <div class="cardname">daily earn</div>
+            </div>
+            <div class="iconbox">
+                <i  class="fa-solid fa-motorcycle"></i>
+            </div>
+        </div>
+       </div>
+
+     <!-- -------------------  HISTORY ---------------------------->
+     <div class="details">
+        <div class="recentorders">
+            <div class="cardheader">
+                <h2>Recents</h2>
+                <a href="#" class="bnt">View All</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>DATE</td>
+                        <td>NAMES</td>
+                        <td>PHONE</td>
+                        <td>LOCATION</td>
+                        <td>TITTLE</td>
+                        <td>CLEAR</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>11/12/2023</td>
+                        <td>TUYIZERE Bruno</td>
+                        <td>0788234590</td>
+                        <td>Kagugu</td>
+                        <td>Driver</td>
+                        <td><a href="#" class="bnt-two">Remove</a></td>
+                    </tr>
+                    <tr>
+                        <td>11/12/2023</td>
+                        <td>NIYONIZERA Alexis</td>
+                        <td>078765430</td>
+                        <td>Gasanze</td>
+                        <td>Driver</td>
+                        <td><a href="#" class="bnt-two">Remove</a></td>
+                    </tr>
+                    <tr>
+                        <td>11/12/2023</td>
+                        <td>TUYISHIME Bruce</td>
+                        <td>0788239450</td>
+                        <td>Batsinda</td>
+                        <td>Taxi Driver</td>
+                        <td><a href="#" class="bnt-two">Remove</a></td>
+                    </tr>
+                    <tr>
+                        <td>11/12/2023</td>
+                        <td>TUYISENGE Eddy</td>
+                        <td>0722234590</td>
+                        <td>Kacyiru</td>
+                        <td>Driver</td>
+                        <td><a href="#" class="bnt-two">Remove</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
 </div>
 </body>
 </html>

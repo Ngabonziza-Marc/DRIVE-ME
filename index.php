@@ -19,7 +19,7 @@
                 <li><a href="#"><i class="fa-solid fa-handshake"></i>Services</a></li>
                 <li><a href="#"><i class="fa-solid fa-motorcycle"></i>Moto</a></li>
                 <li><a href="#"><i class="fa-solid fa-taxi"></i>Taxi</a></li>
-                <li><a href="#"><i class="fa-solid fa-user"></i>User</a></li>
+                <li><a href="dashboard.php"><i class="fa-solid fa-user"></i>User</a></li>
             </ul>
         </div>
     </header>
@@ -39,7 +39,9 @@
         </div>
         <a class="btn" href="login.php">Login</a>
     </section>
-    <footer>
+           <!---------------------- FOOTER ------------------------->
+
+           <footer>
         <div class="social-icons">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -49,7 +51,7 @@
         </div>
         <div class="navbar">
             <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="/index.php">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">User</a></li>
             <li><a href="#">Help center</a></li>

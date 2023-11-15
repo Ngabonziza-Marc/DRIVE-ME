@@ -24,7 +24,9 @@
         </div>
     </header>
     <section>
+
      <!------------------- FORM-LOGIN-------------------------------->
+
     <div class="form-box">
         <form action="" method="post">
             <div class="login-form" id="login">
@@ -34,7 +36,7 @@
               </div>
               <div class="two-forms">
                 <div class="input-box">
-                    <input type="text" class="input-field" name="fname" placeholder="Username">
+                    <input type="text" class="input-field" name="username" placeholder="Username">
                     <i class="fa-solid fa-user"></i>
                 </div>
                 <div class="input-box">
