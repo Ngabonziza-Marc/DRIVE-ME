@@ -168,5 +168,41 @@
         </div>
      </div>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+<div id="map"></div>
+<script>
+    function initMap() {
+        // Create a new map centered on the user's location
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15
+        });
+
+        // Try to get the user's current location
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var userLocation = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                // Center the map on the user's location
+                map.setCenter(userLocation);
+
+                // Add a marker at the user's location
+                var marker = new google.maps.Marker({
+                    position: userLocation,
+                    map: map,
+                    title: 'Your Location'
+                });
+            });
+        }
+    }
+</script>
+<script>
+    window.onload = function() {
+        initMap();
+    };
+</script>
+
 </body>
 </html>

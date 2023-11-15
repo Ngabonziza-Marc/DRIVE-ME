@@ -79,7 +79,7 @@
         </ul>
         <div class="languages"></div>
         <div class="lst">
-            <p>Copyright &copy;2023;Designed by <span class="designer">DM group</span></p>
+            <p>Copyright &copy;<?php $currentYear = date('Y'); echo "$currentYear"; ?>;Designed by <span class="designer">DM group</span></p>
         </div>
         </div>
     </footer>
