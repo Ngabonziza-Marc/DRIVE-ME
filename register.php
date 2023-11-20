@@ -91,7 +91,7 @@
             <ul>
             <li><a href="/index.php">Home</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">User</a></li>
+            <li><a href="dashboard.php">User</a></li>
             <li><a href="#">Help center</a></li>
         </ul>
         <div class="languages"></div>

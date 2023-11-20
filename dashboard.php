@@ -49,6 +49,12 @@
                         <span class="tittle">User</span>
                     </a>
                 </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <span class="tittle">Logout</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -168,6 +174,8 @@
         </div>
      </div>
 </div>
+
+
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 <div id="map"></div>
 <script>
@@ -203,6 +211,7 @@
         initMap();
     };
 </script>
+
 
 </body>
 </html>
