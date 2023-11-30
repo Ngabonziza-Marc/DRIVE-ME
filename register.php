@@ -24,8 +24,9 @@
             </ul>
         </div>
     </header>
+                 <!------------------- FORM-REGISTER -------------------------------->
+
     <section>
-             <!------------------- FORM-REGISTER -------------------------------->
              <div class="form-box">
              <form action="" method="post">
             <div class="registration-form" id="register">
